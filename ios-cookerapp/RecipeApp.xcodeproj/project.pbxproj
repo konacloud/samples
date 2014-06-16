@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E869BBE7FDE48D9B4DA562F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B28D1A10E1945A199BDAF1F /* libPods.a */; };
+		F106456118F8726E00701B07 /* IngredientsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F106456018F8726E00701B07 /* IngredientsTableViewController.m */; };
+		F13F7AD818AE5D8F00565474 /* RecipeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F13F7AD718AE5D8F00565474 /* RecipeManager.m */; };
+		F13F7ADE18AE61FE00565474 /* RecipeBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = F13F7ADD18AE61FE00565474 /* RecipeBuilder.m */; };
+		F165F85718F829DA006296F3 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F165F85518F829DA006296F3 /* Montserrat-Bold.ttf */; };
+		F165F85818F829DA006296F3 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F165F85618F829DA006296F3 /* Montserrat-Regular.ttf */; };
+		F16B7FF518FED95700675365 /* KNResponseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F16B7FF418FED95700675365 /* KNResponseObject.m */; };
+		F178E2CC18FD787B00ACAD4D /* IngredientCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F178E2CB18FD787B00ACAD4D /* IngredientCell.m */; };
+		F178E2CF18FD88C000ACAD4D /* select-image.png in Resources */ = {isa = PBXBuildFile; fileRef = F178E2CD18FD88C000ACAD4D /* select-image.png */; };
+		F178E2D018FD88C000ACAD4D /* select-image@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F178E2CE18FD88C000ACAD4D /* select-image@2x.png */; };
+		F18E7DB918F6FE8800C81289 /* RecipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F18E7DB818F6FE8800C81289 /* RecipeViewController.m */; };
+		F41C80A218531640002AE0A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F41C80A118531640002AE0A3 /* Foundation.framework */; };
+		F41C80A418531640002AE0A3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F41C80A318531640002AE0A3 /* CoreGraphics.framework */; };
+		F41C80A618531640002AE0A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F41C80A518531640002AE0A3 /* UIKit.framework */; };
+		F41C80AC18531640002AE0A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F41C80AA18531640002AE0A3 /* InfoPlist.strings */; };
+		F41C80AE18531640002AE0A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F41C80AD18531640002AE0A3 /* main.m */; };
+		F41C80B218531640002AE0A3 /* RecipeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F41C80B118531640002AE0A3 /* RecipeAppDelegate.m */; };
+		F41C80B518531640002AE0A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F41C80B318531640002AE0A3 /* Main.storyboard */; };
+		F41C80B818531640002AE0A3 /* RecipeListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F41C80B718531640002AE0A3 /* RecipeListTableViewController.m */; };
+		F41C80BA18531640002AE0A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F41C80B918531640002AE0A3 /* Images.xcassets */; };
+		F41C80C118531640002AE0A3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F41C80C018531640002AE0A3 /* XCTest.framework */; };
+		F41C80C218531640002AE0A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F41C80A118531640002AE0A3 /* Foundation.framework */; };
+		F41C80C318531640002AE0A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F41C80A518531640002AE0A3 /* UIKit.framework */; };
+		F41C80CB18531640002AE0A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F41C80C918531640002AE0A3 /* InfoPlist.strings */; };
+		F41C80F818577EB8002AE0A3 /* RecipeTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F41C80F718577EB8002AE0A3 /* RecipeTableCell.m */; };
+		F49F790F186882700036E03F /* RecipeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F49F790E186882700036E03F /* RecipeDetailViewController.m */; };
+		F49F791F186AC9FD0036E03F /* Recipe.m in Sources */ = {isa = PBXBuildFile; fileRef = F49F791E186AC9FD0036E03F /* Recipe.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F41C80C418531640002AE0A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F41C809618531640002AE0A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F41C809D18531640002AE0A3;
+			remoteInfo = CustomTable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08DC25BA1C1141219C17042F /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		4B28D1A10E1945A199BDAF1F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F106455F18F8726E00701B07 /* IngredientsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IngredientsTableViewController.h; sourceTree = "<group>"; };
+		F106456018F8726E00701B07 /* IngredientsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IngredientsTableViewController.m; sourceTree = "<group>"; };
+		F13F7AD618AE5D8F00565474 /* RecipeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeManager.h; sourceTree = "<group>"; };
+		F13F7AD718AE5D8F00565474 /* RecipeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeManager.m; sourceTree = "<group>"; };
+		F13F7ADC18AE61FE00565474 /* RecipeBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeBuilder.h; sourceTree = "<group>"; };
+		F13F7ADD18AE61FE00565474 /* RecipeBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeBuilder.m; sourceTree = "<group>"; };
+		F165F85518F829DA006296F3 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		F165F85618F829DA006296F3 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		F16B7FF318FED95700675365 /* KNResponseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNResponseObject.h; sourceTree = "<group>"; };
+		F16B7FF418FED95700675365 /* KNResponseObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNResponseObject.m; sourceTree = "<group>"; };
+		F178E2CA18FD787B00ACAD4D /* IngredientCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IngredientCell.h; sourceTree = "<group>"; };
+		F178E2CB18FD787B00ACAD4D /* IngredientCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IngredientCell.m; sourceTree = "<group>"; };
+		F178E2CD18FD88C000ACAD4D /* select-image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "select-image.png"; sourceTree = "<group>"; };
+		F178E2CE18FD88C000ACAD4D /* select-image@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "select-image@2x.png"; sourceTree = "<group>"; };
+		F18E7DB718F6FE8800C81289 /* RecipeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeViewController.h; sourceTree = "<group>"; };
+		F18E7DB818F6FE8800C81289 /* RecipeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeViewController.m; sourceTree = "<group>"; };
+		F41C809E18531640002AE0A3 /* Cooker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cooker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F41C80A118531640002AE0A3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F41C80A318531640002AE0A3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F41C80A518531640002AE0A3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F41C80A918531640002AE0A3 /* RecipeApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RecipeApp-Info.plist"; sourceTree = "<group>"; };
+		F41C80AB18531640002AE0A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F41C80AD18531640002AE0A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F41C80AF18531640002AE0A3 /* RecipeApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RecipeApp-Prefix.pch"; sourceTree = "<group>"; };
+		F41C80B018531640002AE0A3 /* RecipeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecipeAppDelegate.h; sourceTree = "<group>"; };
+		F41C80B118531640002AE0A3 /* RecipeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecipeAppDelegate.m; sourceTree = "<group>"; };
+		F41C80B418531640002AE0A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F41C80B618531640002AE0A3 /* RecipeListTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecipeListTableViewController.h; sourceTree = "<group>"; };
+		F41C80B718531640002AE0A3 /* RecipeListTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecipeListTableViewController.m; sourceTree = "<group>"; };
+		F41C80B918531640002AE0A3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F41C80BF18531640002AE0A3 /* RecipeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecipeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F41C80C018531640002AE0A3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F41C80C818531640002AE0A3 /* RecipeAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RecipeAppTests-Info.plist"; sourceTree = "<group>"; };
+		F41C80CA18531640002AE0A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F41C80F618577EB8002AE0A3 /* RecipeTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeTableCell.h; sourceTree = "<group>"; };
+		F41C80F718577EB8002AE0A3 /* RecipeTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeTableCell.m; sourceTree = "<group>"; };
+		F49F790D186882700036E03F /* RecipeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeDetailViewController.h; sourceTree = "<group>"; };
+		F49F790E186882700036E03F /* RecipeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeDetailViewController.m; sourceTree = "<group>"; };
+		F49F791D186AC9FD0036E03F /* Recipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe.h; sourceTree = "<group>"; };
+		F49F791E186AC9FD0036E03F /* Recipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Recipe.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F41C809B18531640002AE0A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F41C80A418531640002AE0A3 /* CoreGraphics.framework in Frameworks */,
+				F41C80A618531640002AE0A3 /* UIKit.framework in Frameworks */,
+				F41C80A218531640002AE0A3 /* Foundation.framework in Frameworks */,
+				5E869BBE7FDE48D9B4DA562F /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F41C80BC18531640002AE0A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F41C80C118531640002AE0A3 /* XCTest.framework in Frameworks */,
+				F41C80C318531640002AE0A3 /* UIKit.framework in Frameworks */,
+				F41C80C218531640002AE0A3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F13F7AD418AE5CBA00565474 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				F13F7AD618AE5D8F00565474 /* RecipeManager.h */,
+				F13F7AD718AE5D8F00565474 /* RecipeManager.m */,
+				F16B7FF318FED95700675365 /* KNResponseObject.h */,
+				F16B7FF418FED95700675365 /* KNResponseObject.m */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		F13F7AD518AE5CE600565474 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				F178E2CD18FD88C000ACAD4D /* select-image.png */,
+				F178E2CE18FD88C000ACAD4D /* select-image@2x.png */,
+			);
+			name = assets;
+			sourceTree = "<group>";
+		};
+		F165F85418F829CC006296F3 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F165F85518F829DA006296F3 /* Montserrat-Bold.ttf */,
+				F165F85618F829DA006296F3 /* Montserrat-Regular.ttf */,
+			);
+			name = fonts;
+			sourceTree = "<group>";
+		};
+		F41C809518531640002AE0A3 = {
+			isa = PBXGroup;
+			children = (
+				F41C80A718531640002AE0A3 /* RecipeApp */,
+				F41C80C618531640002AE0A3 /* RecipeAppTests */,
+				F41C80A018531640002AE0A3 /* Frameworks */,
+				F41C809F18531640002AE0A3 /* Products */,
+				08DC25BA1C1141219C17042F /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		F41C809F18531640002AE0A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F41C809E18531640002AE0A3 /* Cooker.app */,
+				F41C80BF18531640002AE0A3 /* RecipeAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F41C80A018531640002AE0A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F41C80A118531640002AE0A3 /* Foundation.framework */,
+				F41C80A318531640002AE0A3 /* CoreGraphics.framework */,
+				F41C80A518531640002AE0A3 /* UIKit.framework */,
+				F41C80C018531640002AE0A3 /* XCTest.framework */,
+				4B28D1A10E1945A199BDAF1F /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F41C80A718531640002AE0A3 /* RecipeApp */ = {
+			isa = PBXGroup;
+			children = (
+				F165F85418F829CC006296F3 /* fonts */,
+				F13F7AD518AE5CE600565474 /* assets */,
+				F13F7AD418AE5CBA00565474 /* Manager */,
+				F41C80B018531640002AE0A3 /* RecipeAppDelegate.h */,
+				F41C80B118531640002AE0A3 /* RecipeAppDelegate.m */,
+				F41C80B318531640002AE0A3 /* Main.storyboard */,
+				F41C80B618531640002AE0A3 /* RecipeListTableViewController.h */,
+				F41C80B718531640002AE0A3 /* RecipeListTableViewController.m */,
+				F18E7DB718F6FE8800C81289 /* RecipeViewController.h */,
+				F18E7DB818F6FE8800C81289 /* RecipeViewController.m */,
+				F41C80B918531640002AE0A3 /* Images.xcassets */,
+				F41C80A818531640002AE0A3 /* Supporting Files */,
+				F41C80F618577EB8002AE0A3 /* RecipeTableCell.h */,
+				F41C80F718577EB8002AE0A3 /* RecipeTableCell.m */,
+				F49F790D186882700036E03F /* RecipeDetailViewController.h */,
+				F49F790E186882700036E03F /* RecipeDetailViewController.m */,
+				F49F791D186AC9FD0036E03F /* Recipe.h */,
+				F49F791E186AC9FD0036E03F /* Recipe.m */,
+				F13F7ADC18AE61FE00565474 /* RecipeBuilder.h */,
+				F13F7ADD18AE61FE00565474 /* RecipeBuilder.m */,
+				F106455F18F8726E00701B07 /* IngredientsTableViewController.h */,
+				F106456018F8726E00701B07 /* IngredientsTableViewController.m */,
+				F178E2CA18FD787B00ACAD4D /* IngredientCell.h */,
+				F178E2CB18FD787B00ACAD4D /* IngredientCell.m */,
+			);
+			name = RecipeApp;
+			path = CustomTable;
+			sourceTree = "<group>";
+		};
+		F41C80A818531640002AE0A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F41C80A918531640002AE0A3 /* RecipeApp-Info.plist */,
+				F41C80AA18531640002AE0A3 /* InfoPlist.strings */,
+				F41C80AD18531640002AE0A3 /* main.m */,
+				F41C80AF18531640002AE0A3 /* RecipeApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F41C80C618531640002AE0A3 /* RecipeAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F41C80C718531640002AE0A3 /* Supporting Files */,
+			);
+			name = RecipeAppTests;
+			path = CustomTableTests;
+			sourceTree = "<group>";
+		};
+		F41C80C718531640002AE0A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F41C80C818531640002AE0A3 /* RecipeAppTests-Info.plist */,
+				F41C80C918531640002AE0A3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F41C809D18531640002AE0A3 /* RecipeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F41C80D018531640002AE0A3 /* Build configuration list for PBXNativeTarget "RecipeApp" */;
+			buildPhases = (
+				666B111A47FD4032BEB7CD42 /* Check Pods Manifest.lock */,
+				F41C809A18531640002AE0A3 /* Sources */,
+				F41C809B18531640002AE0A3 /* Frameworks */,
+				F41C809C18531640002AE0A3 /* Resources */,
+				6ACFC0E6AD0A474C93486F7C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RecipeApp;
+			productName = CustomTable;
+			productReference = F41C809E18531640002AE0A3 /* Cooker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F41C80BE18531640002AE0A3 /* RecipeAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F41C80D318531640002AE0A3 /* Build configuration list for PBXNativeTarget "RecipeAppTests" */;
+			buildPhases = (
+				F41C80BB18531640002AE0A3 /* Sources */,
+				F41C80BC18531640002AE0A3 /* Frameworks */,
+				F41C80BD18531640002AE0A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F41C80C518531640002AE0A3 /* PBXTargetDependency */,
+			);
+			name = RecipeAppTests;
+			productName = CustomTableTests;
+			productReference = F41C80BF18531640002AE0A3 /* RecipeAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F41C809618531640002AE0A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = "";
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Appcoda;
+				TargetAttributes = {
+					F41C80BE18531640002AE0A3 = {
+						TestTargetID = F41C809D18531640002AE0A3;
+					};
+				};
+			};
+			buildConfigurationList = F41C809918531640002AE0A3 /* Build configuration list for PBXProject "RecipeApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F41C809518531640002AE0A3;
+			productRefGroup = F41C809F18531640002AE0A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F41C809D18531640002AE0A3 /* RecipeApp */,
+				F41C80BE18531640002AE0A3 /* RecipeAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F41C809C18531640002AE0A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F41C80BA18531640002AE0A3 /* Images.xcassets in Resources */,
+				F178E2D018FD88C000ACAD4D /* select-image@2x.png in Resources */,
+				F41C80AC18531640002AE0A3 /* InfoPlist.strings in Resources */,
+				F41C80B518531640002AE0A3 /* Main.storyboard in Resources */,
+				F165F85818F829DA006296F3 /* Montserrat-Regular.ttf in Resources */,
+				F178E2CF18FD88C000ACAD4D /* select-image.png in Resources */,
+				F165F85718F829DA006296F3 /* Montserrat-Bold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F41C80BD18531640002AE0A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F41C80CB18531640002AE0A3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		666B111A47FD4032BEB7CD42 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6ACFC0E6AD0A474C93486F7C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F41C809A18531640002AE0A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F49F791F186AC9FD0036E03F /* Recipe.m in Sources */,
+				F13F7AD818AE5D8F00565474 /* RecipeManager.m in Sources */,
+				F41C80B218531640002AE0A3 /* RecipeAppDelegate.m in Sources */,
+				F16B7FF518FED95700675365 /* KNResponseObject.m in Sources */,
+				F41C80B818531640002AE0A3 /* RecipeListTableViewController.m in Sources */,
+				F106456118F8726E00701B07 /* IngredientsTableViewController.m in Sources */,
+				F41C80AE18531640002AE0A3 /* main.m in Sources */,
+				F18E7DB918F6FE8800C81289 /* RecipeViewController.m in Sources */,
+				F178E2CC18FD787B00ACAD4D /* IngredientCell.m in Sources */,
+				F13F7ADE18AE61FE00565474 /* RecipeBuilder.m in Sources */,
+				F41C80F818577EB8002AE0A3 /* RecipeTableCell.m in Sources */,
+				F49F790F186882700036E03F /* RecipeDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F41C80BB18531640002AE0A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F41C80C518531640002AE0A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F41C809D18531640002AE0A3 /* RecipeApp */;
+			targetProxy = F41C80C418531640002AE0A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F41C80AA18531640002AE0A3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F41C80AB18531640002AE0A3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F41C80B318531640002AE0A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F41C80B418531640002AE0A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F41C80C918531640002AE0A3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F41C80CA18531640002AE0A3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F41C80CE18531640002AE0A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F41C80CF18531640002AE0A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F41C80D118531640002AE0A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08DC25BA1C1141219C17042F /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomTable/RecipeApp-Prefix.pch";
+				INFOPLIST_FILE = "CustomTable/RecipeApp-Info.plist";
+				PRODUCT_NAME = Cooker;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F41C80D218531640002AE0A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08DC25BA1C1141219C17042F /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomTable/RecipeApp-Prefix.pch";
+				INFOPLIST_FILE = "CustomTable/RecipeApp-Info.plist";
+				PRODUCT_NAME = Cooker;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F41C80D418531640002AE0A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CustomTable.app/CustomTable";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomTable/CustomTable-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CustomTableTests/RecipeAppTests-Info.plist";
+				PRODUCT_NAME = RecipeAppTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F41C80D518531640002AE0A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CustomTable.app/CustomTable";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomTable/CustomTable-Prefix.pch";
+				INFOPLIST_FILE = "CustomTableTests/RecipeAppTests-Info.plist";
+				PRODUCT_NAME = RecipeAppTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F41C809918531640002AE0A3 /* Build configuration list for PBXProject "RecipeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F41C80CE18531640002AE0A3 /* Debug */,
+				F41C80CF18531640002AE0A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F41C80D018531640002AE0A3 /* Build configuration list for PBXNativeTarget "RecipeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F41C80D118531640002AE0A3 /* Debug */,
+				F41C80D218531640002AE0A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F41C80D318531640002AE0A3 /* Build configuration list for PBXNativeTarget "RecipeAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F41C80D418531640002AE0A3 /* Debug */,
+				F41C80D518531640002AE0A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F41C809618531640002AE0A3 /* Project object */;
+}

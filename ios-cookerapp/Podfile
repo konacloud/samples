@@ -1,0 +1,7 @@
+# Uncomment this line to define a global platform for your project
+platform :ios,  :deployment_target => "7.0" 
+
+pod 'AFNetworking', '~> 2.0.3'
+pod 'MBProgressHUD', '~> 0.8'
+pod 'NSDate+TimeAgo', '1.0.2'
+
