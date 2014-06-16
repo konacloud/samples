@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  <link href="jquery.mobile-1.4.2.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+
+  <link rel="stylesheet" type="text/css" href="jquery.mobile.flatui.min.css" />
+
+</head>
+<body>
+<div data-role="page" data-control-title="Home" id="page1">
+    <div data-theme="a" data-role="header">
+        <h1 class="ui-title">
+            Categorias
+        </h1>
+    </div>
+    <div role="main" class="ui-content">
+        <ul data-role="listview" data-divider-theme="b" id="movie-list" data-inset="true">
+            <li data-theme="a" data-id="1" data-name="Cultura">
+                <a data-transition="slide">
+                    Cultura
+                    <span class="ui-li-count">
+                        579
+                    </span>
+                </a>
+            </li>
+            <li data-theme="a" data-id="2" data-name="Documentacion">
+                <a data-transition="slide">
+                    Documentación
+                    <span class="ui-li-count">
+                        579
+                    </span>
+                </a>
+            </li>
+            <li data-theme="a" data-id="3" data-name="Patrimonio">
+                <a data-transition="slide">
+                    Patrimonio
+                    <span class="ui-li-count">
+                        145
+                    </span>
+                </a>
+            </li>
+            <li data-theme="a" data-id="4" data-name="Gestion Medio Ambiental">
+                <a data-transition="slide">
+                    Gestión Medio Ambiental
+                    <span class="ui-li-count">
+                        37
+                    </span>
+                </a>
+            </li>
+            <li data-theme="a" data-id="5" data-name="Industrial y Minera">
+                <a data-transition="slide">
+                    Industrial y Minera
+                    <span class="ui-li-count">
+                        20
+                    </span>
+                </a>
+            </li>
+            <li data-theme="a" data-id="6" data-name="Transporte y Obras">
+                <a data-transition="slide">
+                    Transporte y Obras
+                    <span class="ui-li-count">
+                        3
+                    </span>
+                </a>
+            </li>
+            <li data-theme="a" data-id="7" data-name="Turismo">
+                <a data-transition="slide">
+                    Turismo
+                    <span class="ui-li-count">
+                        2
+                    </span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div data-role="tabbar" data-iconpos="top" data-theme="a">
+        <ul>
+            <li>
+                <a href="#page1" data-transition="fade" data-theme="" data-icon="home">
+                    Categorias
+                </a>
+            </li>
+            <li>
+                <a href="#page5" data-transition="slidefade" data-theme="" data-icon="search">
+                    Buscar
+                </a>
+            </li>
+            <li>
+                <a href="#page6" data-transition="slide" data-theme="" data-icon="info">
+                    Acerca De
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div data-role="page" data-control-title="buscar" id="page5">
+    <div data-theme="a" data-role="header">
+        <h1 class="ui-title">
+            Buscar Tramite
+        </h1>
+    </div>
+    <div role="main" class="ui-content">
+        <div class="ui-field-contain" data-controltype="searchinput">
+            <input name="" id="searchTramite" placeholder="" value="" type="search">
+        </div>
+        <a href="#searchPage" class="ui-btn " id="btnBuscar">
+            Buscar
+        </a>
+    </div>
+    <div data-role="tabbar" data-iconpos="top" data-theme="a">
+        <ul>
+            <li>
+                <a href="#page1" data-transition="fade" data-theme="" data-icon="home">
+                    Categorias
+                </a>
+            </li>
+            <li>
+                <a href="#page5" data-transition="slidefade" data-theme="" data-icon="search">
+                    Buscar
+                </a>
+            </li>
+            <li>
+                <a href="#page6" data-transition="slide" data-theme="" data-icon="info">
+                    Acerca De
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div data-role="page" id="headline">
+    <div data-theme="a" data-role="header" data-position="fixed">
+        <a href="#page1" class="ui-btn-left" data-transition="slide" data-direction="reverse">Atras</a>
+        <h3>
+            <div id="headlineTitle"> Tramites </divs>
+        </h3>
+    </div>
+    <div data-role="content">
+        <ul data-role="listview"  id="movie-data" data-theme="a" data-listomatic="true">
+
+        </ul>
+    </div>
+
+    <div data-role="tabbar" data-iconpos="top" data-theme="a">
+        <ul>
+            <li>
+                <a href="#page1" data-transition="fade" data-theme="" data-icon="home">
+                    Categorias
+                </a>
+            </li>
+            <li>
+                <a href="#page5" data-transition="slidefade" data-theme="" data-icon="search">
+                    Buscar
+                </a>
+            </li>
+            <li>
+                <a href="#page6" data-transition="slide" data-theme="" data-icon="info">
+                    Acerca De
+                </a>
+            </li>
+        </ul>
+    </div>
+
+</div>
+</div>
+
+
+<div data-role="page" id="searchPage">
+    <div data-theme="a" data-role="header" data-position="fixed">
+        <a href="#page5" class="ui-btn-left" data-transition="slide" data-direction="reverse">Atras</a>
+        <h3>
+            <div id="searchPageTitle"></divs>
+        </h3>
+    </div>
+    <div data-role="content">
+        <ul data-role="listview"  id="search-page-list-view" data-theme="a" data-listomatic="true">
+
+        </ul>
+    </div>
+
+    <div data-role="tabbar" data-iconpos="top" data-theme="a">
+        <ul>
+            <li>
+                <a href="#page1" data-transition="fade" data-theme="" data-icon="home">
+                    Categorias
+                </a>
+            </li>
+            <li>
+                <a href="#page5" data-transition="slidefade" data-theme="" data-icon="search">
+                    Buscar
+                </a>
+            </li>
+            <li>
+                <a href="#page6" data-transition="slide" data-theme="" data-icon="info">
+                    Acerca De
+                </a>
+            </li>
+        </ul>
+    </div>
+
+</div>
+</div>
+
+<div data-role="page" data-control-title="acercaDe" id="page6">
+
+    <div data-theme="a" data-role="header" data-position="fixed">
+        <a href="#page1" class="ui-btn-left" data-transition="slide" data-direction="reverse">Atras</a>
+        <h3>
+            <div id="headlineTitle"> Acerca De </divs>
+        </h3>
+    </div>
+
+    <div role="main" class="ui-content">
+        <h3>
+            Desarrollo
+        </h3>
+        <div data-controltype="textblock">
+            <p>
+                konacloud.io
+            </p>
+        </div>
+        <h3>
+            Datos
+        </h3>
+        <div data-controltype="textblock">
+            <p>
+                datos.gub.uy
+            </p>
+        </div>
+        <h3>
+            Contacto
+        </h3>
+        <div data-controltype="textblock">
+            <p>
+                info@konacloud.io
+            </p>
+        </div>
+    </div>
+
+    <div data-role="tabbar" data-iconpos="top" data-theme="a">
+        <ul>
+            <li>
+                <a href="#page1" data-transition="fade" data-theme="" data-icon="home">
+                    Categorias
+                </a>
+            </li>
+            <li>
+                <a href="#page5" data-transition="slidefade" data-theme="" data-icon="search">
+                    Buscar
+                </a>
+            </li>
+            <li>
+                <a href="#page6" data-transition="slide" data-theme="" data-icon="info">
+                    Acerca De
+                </a>
+            </li>
+        </ul>
+    </div>
+
+</div>
+
+<div data-role="page" data-control-title="tramiteDetail" id="tramiteDetail">
+    <div data-theme="a" data-role="header" data-position="fixed">
+        <a href="#" class="ui-btn-left" data-transition="slide" data-direction="reverse" onclick="history.go(-1);">Atras</a>
+        <h3>
+            <div id="headerTramiteDetail"> Tramite </divs>
+        </h3>
+    </div>
+    <div role="main" class="ui-content">
+        <h3>
+            Que es?
+        </h3>
+        <div id="queEsId" data-controltype="textblock">
+            <p>
+                <span>
+                </span>
+            </p>
+        </div>
+        <h3>
+            Donde y Cuando?
+        </h3>
+        <div id="dondeYCuandoId" data-controltype="textblock">
+            <p>
+                <span>
+                </span>
+            </p>
+        </div>
+        <h3>
+            Requisitos
+        </h3>
+        <div id="requisitos" data-controltype="textblock">
+            <p>
+                <span>
+                </span>
+            </p>
+        </div>
+        <h3>
+            Observaciones
+        </h3>
+        <div id="observacionesId" data-controltype="textblock">
+
+        </div>
+
+        <h3>
+            Depende de
+        </h3>
+        <div id="dependeDeId" data-controltype="textblock">
+
+        </div>
+
+    </div>
+</div>
+
+<script src="jquery.min.js"></script>
+<script src="jquery.mobile-1.4.2.min.js"></script>
+<script src="codiqa.ext.min.js"></script>
+
+<script src="script.js"></script>
+
+
+</body>
+</html>

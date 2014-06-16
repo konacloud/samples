@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns		= "http://www.w3.org/ns/widgets"
+	xmlns:gap	= "http://phonegap.com/ns/1.0"
+	id		= "tramites.konacloud.io"
+	version 	= "1.0.0">
+
+	<gap:splash src="splash.png" gap:platform="android" gap:density="mdpi" />
+
+	<name>TramitesUY</name>
+
+	<description>
+		Aplicacion para buscar tramites en el uruguay, donde realizarlos, que requisitos tiene, los datos
+		se obtienen a partir de datos abiertos datos.gub.uy.
+
+		Backend Powered by konacloud.io
+	</description>
+
+	<author href="https://github.com/sjcotto"
+		email="sjcotto@gmail.com">
+		Santiago Cotto
+	</author>
+
+	<icon src="icon.png" gap:role="default" />
+
+	<feature name="http://api.phonegap.com/1.0/network"/>
+
+	<preference name="stay-in-webview" value="true" />
+	<access origin="*" />
+
+</widget>
