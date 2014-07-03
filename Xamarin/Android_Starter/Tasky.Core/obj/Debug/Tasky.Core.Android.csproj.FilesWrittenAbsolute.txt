@@ -1,0 +1,11 @@
+/Users/diego/Downloads/Tasky/Android_Starter/Tasky.Core/obj/Debug/MonoAndroid,Version=v2.3.AssemblyAttribute.cs
+/Users/diego/Downloads/Tasky/Android_Starter/Tasky.Core/obj/Debug/Tasky.obj.Debug.__AndroidLibraryProjects__.zip
+/Users/diego/Downloads/Tasky/Android_Starter/Tasky.Core/bin/Debug/Tasky.Core.Anroid.dll.mdb
+/Users/diego/Downloads/Tasky/Android_Starter/Tasky.Core/bin/Debug/Tasky.Core.Anroid.dll
+/Users/diego/Downloads/Tasky/Android_Starter/Tasky.Core/bin/Debug/Tasky.Core.Anroid.apk
+/Users/diego/Downloads/Tasky/Android_Starter/Tasky.Core/obj/Debug/android/bin/Tasky.Core.Anroid.apk
+/Users/diego/Downloads/Tasky/Android_Starter/Tasky.Core/obj/Debug/R.cs.flag
+/Users/diego/Downloads/Tasky/Android_Starter/Tasky.Core/bin/Debug/Tasky.Core.Anroid-Signed.apk
+/Users/diego/Downloads/Tasky/Android_Starter/Tasky.Core/obj/Debug/uploadflags.txt
+/Users/diego/Downloads/Tasky/Android_Starter/Tasky.Core/obj/Debug/Tasky.Core.Anroid.dll
+/Users/diego/Downloads/Tasky/Android_Starter/Tasky.Core/obj/Debug/Tasky.Core.Anroid.dll.mdb

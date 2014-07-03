@@ -1,0 +1,17 @@
+KONA Cloud Xamarin Samples
+
+Tasky is an open source and sample app from the Xamarin folks.
+
+We've taken both Tasky.iOS and Tasky.Android and added a quick backend to them, instead of using the local sqlite database.
+
+Steps
+
+1. Import the (tasky.kson) application into your KONA Cloud account in Apps -> Detail -> Import
+2. Open Tasky.iOS or Tasky.Android in Xamarin (they work with the starter -free- version)
+3. in KCTaskRepository.cs change the following:
+3.1 Change the service URL (var url) to your own account/app uRL
+3.2 Change the auth_token to your newly assigned token under your App settings 
+4. Run
+5. Enjoy
+
+The KONA Cloud team.
