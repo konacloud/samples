@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>jQuery File Upload Demo - Basic version</title>
+<meta name="description" content="File Upload widget with multiple file selection, drag&amp;drop support and progress bar for jQuery. Supports cross-domain, chunked and resumable file uploads. Works with any server-side platform (PHP, Python, Ruby on Rails, Java, Node.js, Go etc.) that supports standard HTML form file uploads.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/jquery.fileupload.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>KONA jQuery File Upload</h1>
+
+    <span class="btn btn-success fileinput-button">
+        <i class="glyphicon glyphicon-plus"></i>
+        <span>Select files...</span>
+        <input id="fileupload" type="file" name="files[]" multiple>
+    </span>
+    <br>
+    <br>
+    <div id="progress" class="progress">
+        <div class="progress-bar progress-bar-success"></div>
+    </div>
+    <div id="files" class="files"></div>
+    <br>
+</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+<script src="js/vendor/jquery.ui.widget.js"></script>
+
+<script src="js/jquery.iframe-transport.js"></script>
+
+<script src="js/jquery.fileupload.js"></script>
+
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script>
+/*jslint unparam: true */
+/*global window, $ */
+$(function () {
+    'use strict';
+    // Change this to the location of your server-side upload handler:
+
+    $('#fileupload').fileupload({
+        url: "http://bucket.konacloud.io/external/api/bucket/taio/samples/b1",
+        dataType: 'json',
+        done: function (e, data) {
+            console.log("hola");
+            console.log(data.result.data[0].url);
+        },
+        progressall: function (e, data) {
+            var progress = parseInt(data.loaded / data.total * 100, 10);
+            $('#progress .progress-bar').css(
+                'width',
+                progress + '%'
+            );
+        }
+    }).prop('disabled', !$.support.fileInput)
+        .parent().addClass($.support.fileInput ? undefined : 'disabled');
+});
+</script>
+</body>
+</html>
