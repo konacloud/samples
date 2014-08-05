@@ -4,6 +4,8 @@ Tasky is an open source and sample app from the Xamarin folks.
 
 We've taken both Tasky.iOS and Tasky.Android and added a quick backend to them, instead of using the local sqlite database.
 
+Create a free account at http://konacloud.io
+
 Steps
 
 1. Import the (tasky.kson) application into your KONA Cloud account in Apps -> Detail -> Import
