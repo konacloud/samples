@@ -18,11 +18,11 @@ Once this is done, open the CookerApp Xamarin solution, and change the service U
 
 This is done in the RecipeManager.m, line 15:
 
-#define K_SERVICE_API_BASE_URL @"http://app.konacloud.io/api/diego/CookerApp/"
+** #define K_SERVICE_API_BASE_URL @"http://app.konacloud.io/api/diego/CookerApp/"**
 
 IF you have enabled TOKEN security for your backend, you need to also change this in line 16:
 
-#define K_SERVICE_API_TOKEN @"89e36f59-2cf0-479d-a332-355393a1ff28"
+** #define K_SERVICE_API_TOKEN @"89e36f59-2cf0-479d-a332-355393a1ff28"**
 
 Compile, run & enjoy!
 
