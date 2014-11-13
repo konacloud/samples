@@ -1,6 +1,6 @@
 CookerApp - An iOS sample app for storing cooking recipes
 
-![Screenshot](http://i.imgur.com/1o6boUT.jpg)
+![Screenshot](http://i.imgur.com/wn7icXy.png)
 
 This app is a very simple app that basically does these 2 things:
 
